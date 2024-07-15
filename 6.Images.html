@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML Images</title>
+</head>
+<body>
+    <p>select any image and right click it, copy the image address, use img tag, remember that like meta, its not a closed tag</p>
+
+    <img src="https://i.pinimg.com/originals/be/8f/2d/be8f2d7906065c628bdc79de687e048c.jpg">
+
+    <p>we can also give this image the height and width that we prefer</p>
+
+    <img src="https://imageio.forbes.com/specials-images/imageserve/5c76b7d331358e35dd2773a9/0x0.jpg?format=jpg&crop=4401,4401,x0,y0,safe&height=416&width=416&fit=bounds" width="700" height="100">
+
+    <p>if we only write width and not height (vice versa) the other untyped side will adjust according to the original image's dimensions</p>
+
+    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRg0lWKWu3qSLT9NFfnsLXsTV4SCbKZG8762w&s" height="400">
+
+    <p>we can also give an alt="" value, in the link i changed wikipedia to wikiledia and the address will not be found, so it will ust display the alt name and an image symbol</p>
+
+    <img src="https://upload.wikimedia.org/wikiledia/commons/thumb/e/ec/Mona_Lisa%2C_by_Leonardo_da_Vinci%2C_from_C2RMF_retouched.jpg/640px-Mona_Lisa%2C_by_Leonardo_da_Vinci%2C_from_C2RMF_retouched.jpg" alt="Mona Lisa">
+
+    <p>if the image already exists in our folder, then we can just write the file's name</p>
+
+    <img src="perry_the_platypus.jpeg" alt="Perry the Platypus" width="200" height="900">
+
+    <p>if the image that we want to use is downloaded but in another file, we add "./images/normal_platypus.jpeg" the dot represents our folder </p>
+
+    <img src="./images/normal_platypus.jpeg" alt="Platypus">
+
+    <p>if we want our image to be an actual link, we create a tag, inside it we put our image! link behaves like a parent</p>
+
+    <a href="https://www.imdb.com/title/tt0120917/" target="_blank"> 
+        <img src="https://static1.colliderimages.com/wordpress/wp-content/uploads/2020/12/emperors-new-groove-yzma-kronk.jpg" alt="Me n who?" width="200">
+    </a>
+
+    
+</body>
+</html>
