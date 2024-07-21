@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML Tables</title>
+</head>
+<body>
+    <p>use the "table" tag for creating a table in html, we have our header and our body in tables</p>
+    <p>to create a table row use "tr" tag</p>
+    <p>"th" tags make the text bolder</p>
+    <p>"td" tags make table drawers, this is where you put the data</p>
+    <p>we put the headers in "thead" tag for best practice</p>
+    <p>and we put the data inside "tbody" for best practice</p>
+
+    <p>with the help of CSS we can create borders</p>
+    <style>
+        table,th,td {
+            border: 1px solid black;
+            border-collapse: collapse;
+        }
+    </style>
+
+    <table>
+        <thead>
+            <tr>
+                <th>
+                    Name
+                </th>
+                <th>
+                    Department
+                </th>
+                <th>
+                    Salary
+                </th>
+            </tr>
+    
+        </thead>
+
+        <tbody>
+            <tr>
+                <td>
+                    Selin
+                </td>
+                <td>
+                    Engineering
+                </td>
+                <td>
+                    2000
+                </td>
+            </tr>
+    
+            <tr>
+                <td>
+                    Ali
+                </td>
+                <td>
+                    Education
+                </td>
+                <td>
+                    1500
+                </td>
+            </tr>
+    
+            <tr>
+                <td>
+                    Ayşe
+                </td>
+                <td>
+                    Medical
+                </td>
+                <td>
+                    2500
+                </td>
+            </tr>
+        </tbody>
+
+        
+    </table>
+</body>
+</html>
